@@ -7,3 +7,4 @@ itsdangerous==2.0.1
 SQLAlchemy==1.4.26 
 flask-sqlalchemy==2.5.1 
 greenlet==1.1.2
+gunicorn==20.1.0
