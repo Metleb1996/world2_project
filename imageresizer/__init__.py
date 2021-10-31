@@ -1,0 +1,1 @@
+from . image_resize import bp_imgrsz
