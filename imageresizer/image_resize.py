@@ -5,4 +5,7 @@ bp_imgrsz = Blueprint("__bp_imgrsz__", __name__, template_folder="../templates",
 
 @bp_imgrsz.route("")
 def index():
-    return render_template("imageresizer/index.html")
+    cntx = {
+        "title":"Image Resizer"
+    }
+    return render_template("imageresizer/index.html", cnt=cntx)
