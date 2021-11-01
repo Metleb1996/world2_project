@@ -5,4 +5,7 @@ bp_ankets = Blueprint("__bp_ankets__", __name__, template_folder="../templates",
 
 @bp_ankets.route("")
 def index():
-    return render_template("ankets/index.html")
+    cntx = {
+        "title":"Ankets"
+    }
+    return render_template("ankets/index.html", cnt=cntx)
